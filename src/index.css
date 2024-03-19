@@ -22,7 +22,7 @@
 --color--very-light__gray: hsl(0, 0%, 98%);
 --color--white: hsl(0, 0%, 100%);
 
---default--font-size: 1.8rem;
+--default--font-size: 1.6rem;
 /* --default--border-radius: 1.6rem;
 
 --default-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); */
@@ -49,6 +49,8 @@ html{
   color: var(--color--blue__marine);
 
   box-sizing: border-box;
+
+  color: var(--color--grayish__blue);
 }
 
 body {

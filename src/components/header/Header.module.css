@@ -1,0 +1,36 @@
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+.header{
+    padding: 0 20rem;
+    width: 100%;
+    height: 6.4rem;
+
+    background-color: var(--color--white);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a, .a:link, .a:visited{
+    font-size: 1.6rem;
+    text-decoration: none;
+
+    padding: 2rem 0;
+    border-bottom: .2rem solid transparent;
+}
+
+.a:hover{
+    border-bottom: .4rem solid var(--color--lime__green);
+    color: var(--color--dark__blue);
+}
+
+.nav a:not(:last-child){
+    margin-right: 2rem;
+}
