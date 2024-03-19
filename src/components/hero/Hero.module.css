@@ -12,6 +12,8 @@
     overflow: hidden;
 
     height: 84rem;
+
+    background-color: var(--color--light-grayish__blue);
 }
 
 .content {
