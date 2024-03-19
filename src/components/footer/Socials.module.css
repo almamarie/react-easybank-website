@@ -1,0 +1,12 @@
+.ul{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.icon, .icon-path {
+    cursor: pointer;
+}
+
+.icon:hover .icon-path{
+    fill:var(--color--lime__green);
+}
