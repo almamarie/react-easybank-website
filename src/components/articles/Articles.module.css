@@ -1,0 +1,70 @@
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+.section {
+    padding: 15rem 20rem;
+}
+
+.heading{
+    font-size: 3.6rem;
+    font-weight: normal;
+
+    color: var(--color--dark__blue);
+
+    margin-bottom: 4.8rem;
+}
+
+.articles {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+.article {
+    width: 26rem;
+    height: 40rem;
+
+    border-radius: 1.2rem;
+    overflow: hidden;
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+    cursor: pointer;
+
+}
+
+.article:hover .content .article-title{
+    color: var(--color--lime__green);
+}
+
+.img{
+    width: 100%;
+    height: 20rem;
+}
+
+.content{
+    padding: 2.4rem;
+}
+
+.written-by{
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 1.2rem;
+}
+
+.article-title{
+    color: var(--color--dark__blue);
+    font-weight: normal;
+
+    margin-bottom: 1.2rem;
+}
+
+.article-description{
+    font-size: 1.2rem;
+}
