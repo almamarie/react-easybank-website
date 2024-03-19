@@ -11,16 +11,16 @@
 :root{
 /* ### Primary */
 
---color--dark__blue: hsl(233, 26%, 24%);
---color--lime__green: hsl(136, 65%, 51%);
---color--bright__cyan: hsl(192, 70%, 51%);
+--color--dark__blue: rgb(45, 49, 77);
+--color--lime__green: rgb(49, 211, 92);
+--color--bright__cyan: rgb(43, 183, 218);
 
 /* ### Neutral */
 
---color--grayish__blue: hsl(233, 8%, 62%);
---color--light-grayish__blue: hsl(220, 16%, 96%);
---color--very-light__gray: hsl(0, 0%, 98%);
---color--white: hsl(0, 0%, 100%);
+--color--grayish__blue: rgb(150, 152, 166);
+--color--light-grayish__blue: rgb(243, 244, 246);
+--color--very-light__gray: rgb(250, 250, 250);
+--color--white: rgb(255, 255, 255);
 
 --default--font-size: 1.6rem;
 /* --default--border-radius: 1.6rem;
@@ -58,4 +58,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color--magnolia);
+
+  /* overflow: hidden; */
 }
