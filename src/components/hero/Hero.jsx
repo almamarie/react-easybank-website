@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import heroImage from "../../resources/easybank-landing-page-master/images/bg-intro-desktop.svg";
+import mobileHeroImage from "../../resources/easybank-landing-page-master/images/bg-intro-mobile.svg";
 import mockupsImg from "../../resources/easybank-landing-page-master/images/image-mockups.png";
 import Button from "../ui/Button";
 
@@ -25,8 +26,13 @@ const Hero = () => {
         </div>
         <div className={styles.images}>
           <img
-            className={styles["hero--img__image"]}
+            className={styles["hero--img__desktop"]}
             src={heroImage}
+            alt="hero"
+          />
+          <img
+            className={styles["hero--img__mobile"]}
+            src={mobileHeroImage}
             alt="hero"
           />
         </div>

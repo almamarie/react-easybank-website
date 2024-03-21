@@ -7,7 +7,7 @@
 */
 
 .header{
-    padding: 0 20rem;
+    padding: 0 var(--default-margin);
     width: 100%;
     height: 6.4rem;
 
@@ -37,4 +37,40 @@
 
 .nav a:not(:last-child){
     margin-right: 2rem;
+}
+
+.icon--hamburger, .icon--close{
+    display: none;
+    visibility: hidden;
+}
+
+
+/******************************** 
+************ 898px ************* 
+*********************************/
+
+@media (max-width:56.125em) {
+    .a:link {
+        font-size: 1.2rem;
+    }
+
+    .nav a:not(:last-child){
+        margin-right: 1.4rem;
+    }
+}
+
+/******************************** 
+************ 898px ************* 
+*********************************/
+
+@media (max-width:46.875em) {
+    .icon--hamburger, .icon--close{
+        display: block;
+        visibility: visible;
+    }
+
+    .nav, .btn {
+        display: none;
+        visibility: hidden;
+    }
 }

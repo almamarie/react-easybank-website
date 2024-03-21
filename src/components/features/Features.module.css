@@ -8,7 +8,7 @@
 
 .section {
     background-color: var(--color--light-grayish__blue);
-    padding: 0rem 20rem 10rem 20rem;
+    padding: 0rem var(--default-margin) 10rem var(--default-margin);
 }
 
 .heading{
@@ -39,4 +39,51 @@
 
 .icon{
     margin-bottom: 3.2rem;
+}
+
+
+
+/******************************** 
+************ 1055px ************* 
+*********************************/
+
+@media (max-width:65.9375em) {
+    .icon {
+        width: 4.8rem;
+    }
+    .feature h3{
+        font-size: 2rem;
+    }
+    .description{
+        font-size: 1.5rem;
+    }
+    .feature p{
+        font-size: 1.2rem;
+    }
+}
+
+/******************************** 
+************ 750px ************* 
+*********************************/
+
+@media (max-width:46.875em) {
+    .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .feature{
+        text-align: center;
+    }
+}
+
+
+/******************************** 
+************ 450px ************* 
+*********************************/
+
+@media (max-width:28.125em) {
+    .features {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

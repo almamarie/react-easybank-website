@@ -23,9 +23,7 @@
 --color--white: rgb(255, 255, 255);
 
 --default--font-size: 1.6rem;
-/* --default--border-radius: 1.6rem;
-
---default-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); */
+--default-margin:20rem;
 }
 
 
@@ -62,4 +60,27 @@ body {
 
 p{
   line-height: 160%;
+}
+
+
+
+/******************************** 
+************ 1300px ************* 
+*********************************/
+
+@media (max-width:81.25em) {
+  :root{
+    --default-margin:10rem;
+  }
+}
+
+
+/******************************** 
+************ 898px ************* 
+*********************************/
+
+@media (max-width:46.875em) {
+    :root{
+    --default-margin:2rem;
+  }
 }
